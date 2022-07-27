@@ -56,4 +56,22 @@ public class BinarySearchTree {
 			inorderRec(root.right);
 		}
 	}
+
+	public Node search(Node root, int key) {
+    // Case 1 : root is null or key is present at root
+    if (root==null){
+		System.out.println("Key not present in tree");
+        return root;
+	}
+	if (root.key==key){
+		System.out.println("Key found in tree");
+        return root;
+	}
+    // Case 2 : Key is greater than root's key
+    if (root.key < key){
+       return search(root.right, key);
+	}
+    // Case 3 : key is smaller than root's key
+    return search(root.left, key);
+	}
 }

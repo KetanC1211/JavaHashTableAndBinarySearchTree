@@ -24,6 +24,6 @@ public class BSTMain {
 			tree.insert(67);
 
 			// print inorder traversal of the BST
-			tree.inorder();
+			tree.search(tree.root, 63);
 	}
 }
