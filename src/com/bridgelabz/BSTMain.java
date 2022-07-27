@@ -14,7 +14,7 @@ public class BSTMain {
 			tree.insert(40);
 			tree.insert(60);
 			tree.insert(95);
-			//Adding Child nodes for 11 and 65
+			//Adding Child nodes for 22 and 60
 			tree.insert(11);
 			tree.insert(65);
 			//Adding leaf nodes
