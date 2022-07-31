@@ -40,6 +40,4 @@ public class FindFrequency {
 		}
 		System.out.println(hashMap);
 	}
-
-
 }
