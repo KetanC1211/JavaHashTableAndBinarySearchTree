@@ -12,7 +12,7 @@ public class FindFrequency {
 	public static void main(String[] args)	{
 
 		// Declaring the String
-		String str = "To be or not to be";
+		String str = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations" ;
 		String givenString = str.toLowerCase();
 		// Declaring a HashMap of <String, Integer>
 		Map<String, Integer> hashMap = new HashMap<>();
@@ -40,6 +40,5 @@ public class FindFrequency {
 		}
 		System.out.println(hashMap);
 	}
-
 
 }
