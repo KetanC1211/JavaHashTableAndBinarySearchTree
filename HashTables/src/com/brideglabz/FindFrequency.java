@@ -39,6 +39,8 @@ public class FindFrequency {
 			}
 		}
 		System.out.println(hashMap);
+		hashMap.remove("avoidable");
+		System.out.println(hashMap);
 	}
 
 }
